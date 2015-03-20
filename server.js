@@ -1,5 +1,3 @@
-/**
- * Created by oops on 13.03.15.
 var express = require('express');
 var app = express();
 var loger = require('morgan');
@@ -17,7 +15,7 @@ require ('./routers/index.js')(app);
 
 app.listen(3030, function(){
     console.log ('------- Express Sart Success -------')
-});*/
+});
 
 var express = require('express');
 var app = express();
