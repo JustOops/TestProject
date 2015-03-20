@@ -37,5 +37,5 @@ require('./routers/index')(app);
 
 //прослуховування порту
 app.listen(3030,function(){
-    console.log('-----------------> Express start success <----------------');
+    console.log('-----------------> Hello Vova <----------------');
 });
